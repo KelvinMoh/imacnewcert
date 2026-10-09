@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificate Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎓 IMAC Certificate Generator</h1>
+        <div class="container1">
+            <input id="category" type="text" placeholder="Certificate Title" />
+            <input id="recipient" type="text" placeholder="Recipient Name" />
+             <input id="ordained" type="text" placeholder="Ordination Title" />
+             <input id="regno" type="text" placeholder="Registration Number" />
+            <button onclick="generateCertificates()">Generate Certificate</button>
+
+            
+            <div id="preview"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
